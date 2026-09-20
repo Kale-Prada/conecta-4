@@ -71,6 +71,4 @@ OS: Darwin x64 25.6.0
 
 ## Licencia
 
-Este proyecto está bajo la licencia (). Ver el archivo [LICENSE](LICENSE) para más detalles. 
-
 Autor = Keepcoding España S.L.U.
