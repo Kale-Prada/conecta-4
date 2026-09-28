@@ -29,7 +29,7 @@ class BaseOracle:
 
     def _get_recommendation(self, board, player):
         """
-        Obtenemos recomenciones por column y las guardamos en una lista
+        Obtenemos recomendaciones por column (ColumRecomendations) y las guardamos en una lista
         :param board:
         :param player:
         :return:

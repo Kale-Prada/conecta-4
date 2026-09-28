@@ -9,6 +9,9 @@ class SquareBoard:
     """
     @classmethod
     def from_list(cls, list_of_list):
+        """
+        Transforma una lista de listas en una list de LinearBoard 
+        """
         board = cls()
         board._columns = map_list(list_of_list, LinearBoard.from_list)
         return board
@@ -63,6 +66,10 @@ class SquareBoard:
         result = self._columns[column].add(char)
         return result
     def as_matrix(self):
+        """
+        Devuelve una representación en formato de matriz, es decir, 
+        una lista de listas. 
+        """
         result = []
         for column in self._columns:
             result.append(column._columns)

@@ -254,12 +254,3 @@ def replace_in_list(elements, old, new):
         else:
             result.append(elt)
     return result
-
-
-
-
-
-
-
-
-
