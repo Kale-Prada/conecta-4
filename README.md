@@ -16,29 +16,27 @@ así que cada partida será más compleja que la anterior, en el caso que juegue
 
 ## Requisitos - Detalles
 
-- beautifultable==1.1.0
-- pyfiglet==1.0.4
-- wcwidth==0.8.4
+**Ver / instalar requirements.txt** 
 
-- Para ejecutar el programa: python3 conecta4.py
+No olvides comprobar que tienes instalado pytest y marcar la carpeta "test" para hacer las comprobaciones con assert 
+
+Pasos para activar la carpeta "test" (para macOS):  
+
+
+* Abre la Paleta de Comandos: Presiona Ctrl + Shift + P (o Cmd + Shift + P en Mac).
+* Configura los tests: Escribe y selecciona el comando Python: Configure Tests.
+* Selecciona el framework: Elige pytest de la lista desplegable.
+* Selecciona el directorio raíz: Indica la carpeta donde se encuentran tus archivos de código o de prueba (por lo general, la carpeta principal del proyecto o tests).
+* Una vez finalizado, verás un icono con forma de matraz de laboratorio en la barra lateral izquierda de VS Code (el Explorador de pruebas o Test Explorer). Desde ahí podrás ver, ejecutar y depurar todas tus pruebas automáticamente.  
+
+## Ejecutar el programa 
+- Para ejecutar el programa: `python3 main.py`
 
 ## Requisitos Previos
 
 * **Python:** Versión 3.14.7
 * **Visual Studio Code** con la extensión de Python instalada.
-```bash
-Version: 1.138.0 (Universal)
-Commit: 7debcd0e2acdea1c52de81bf9ee1620444407dda
-Date: 2026-09-15T07:24:32Z
-Electron: 42.10.0
-ElectronBuildId: 15109253
-Chromium: 148.0.7778.280
-Node.js: 24.18.1
-V8: 14.8.178.38-electron.0
-@github/copilot: 1.0.84-4
-@github/copilot-sdk: 1.0.13
-OS: Darwin x64 25.6.0
-```
+
 
 ## Instalación y Ejecución
 

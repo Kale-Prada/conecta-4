@@ -1,3 +1,8 @@
 beautifultable==1.1.0
+iniconfig==2.3.0
+packaging==26.3
+pluggy==1.6.0
 pyfiglet==1.0.4
-wcwidth==0.8.4
+Pygments==2.21.0
+pytest==9.1.1
+wcwidth==0.9.1
